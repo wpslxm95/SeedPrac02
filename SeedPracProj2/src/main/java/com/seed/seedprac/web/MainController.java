@@ -21,4 +21,9 @@ public class MainController {
 		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
 		return "";
 	}
+	@RequestMapping("/seed/prac/gotoboard2")
+	public String gotoBoard2() {
+		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
+		return "boards/board2.tiles";
+	}
 }

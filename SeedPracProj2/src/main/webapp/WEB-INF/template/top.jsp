@@ -36,7 +36,7 @@
 						<!-- 게시판1 -->
 							<li><a href="<c:url value='/seed/prac/gotoboard1'/>">게시판1</a></li>
 						<!-- 게시판2 -->
-							<li><a href="#">게시판2</a></li>
+							<li><a href="<c:url value='/seed/prac/gotoboard2'/>">게시판2</a></li>
 						<!-- 게시판3 -->
 							<li><a href="#">게시판3</a></li>
 						<!-- 게시판4 -->

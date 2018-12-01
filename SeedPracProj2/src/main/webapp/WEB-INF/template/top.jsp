@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
 <body>
 
 	<!-- ***************************
@@ -36,7 +38,7 @@
 						<!-- 게시판1 -->
 							<li><a href="<c:url value='/seed/prac/gotoboard1'/>">게시판1</a></li>
 						<!-- 게시판2 -->
-							<li><a href="#">게시판2</a></li>
+							<li><a href="<c:url value='/seed/prac/testAjax'/>">Ajax</a></li>
 						<!-- 게시판3 -->
 							<li><a href="#">게시판3</a></li>
 						<!-- 게시판4 -->

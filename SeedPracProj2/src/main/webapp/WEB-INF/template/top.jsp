@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
 <body>
 
 	<!-- ***************************
@@ -26,7 +28,7 @@
 								class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="<c:url value='/seed/prac/gotohome'/>">Seed</a>
+						<a class="navbar-brand" href="<c:url value='/seed/prac/gotohome.do'/>">Seed</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,9 +38,13 @@
 						<!-- 게시판1 -->
 							<li><a href="<c:url value='/seed/prac/gotoboard1'/>">게시판1</a></li>
 						<!-- 게시판2 -->
+<<<<<<< HEAD
 							<li><a href="<c:url value='/seed/prac/gotoboard2'/>">게시판2</a></li>
+=======
+							<li><a href="<c:url value='/seed/prac/testAjax'/>">Ajax</a></li>
+>>>>>>> branch 'nomsoo' of https://github.com/wpslxm95/SeedPrac02.git
 						<!-- 게시판3 -->
-							<li><a href="#">게시판3</a></li>
+							<li><a href="#">Thread</a></li>
 						<!-- 게시판4 -->
 							<li><a href="#">게시판4</a></li>
 						</ul>

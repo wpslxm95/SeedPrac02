@@ -16,6 +16,21 @@ public class MainController {
 		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
 		return "boards/board1.tiles";
 	}
+	@RequestMapping("/seed/prac/testAjax")
+	public String gototestAjax() {
+		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
+		return "boards/testAjax.tiles";
+	}
+	@RequestMapping("/seed/prac/testThread")
+	public String gototestThread() {
+		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
+		return "boards/testThread.tiles";
+	}
+	@RequestMapping("/seed/prac/result")
+	public String result() {
+		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
+		return "ajax/result.tiles";
+	}
 	@RequestMapping("/seed/prac/gotoLogIn")
 	public String gotoLogin() {
 		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp

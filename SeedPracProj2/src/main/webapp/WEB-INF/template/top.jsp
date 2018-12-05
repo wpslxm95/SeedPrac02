@@ -5,10 +5,7 @@
 <head>
 	<title>SeedIT</title>
 </head>
-<!-- 부트스트랩 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 <body>
 
 	<!-- ***************************
@@ -34,13 +31,20 @@
 						id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 						<!-- 게시판1 -->
-							<li><a href="<c:url value='/seed/prac/gotoboard1'/>">게시판1</a></li>
+							<li><a href="<c:url value='/seed/prac/gotoboard1.do'/>">게시판1</a></li>
 						<!-- 게시판2 -->
 							<li><a href="#">게시판2</a></li>
 						<!-- 게시판3 -->
 							<li><a href="#">게시판3</a></li>
 						<!-- 게시판4 -->
 							<li><a href="#">게시판4</a></li>
+						<!-- 게시판5 -->
+							<c:if test="${empty sessionScope.id  }" >
+								<li><a href="<c:url value='/seed/prac/gotoLoginPage.do'/>">Login</a></li>
+							</c:if>
+							<c:if test="${not empty sessionScope.id }">
+								<li><a href="<c:url value='/seed/prac/gotoLogout.do'/>">Logout</a></li>
+							</c:if>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->

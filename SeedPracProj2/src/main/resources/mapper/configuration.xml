@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 
+   mybatis의 환경설정 파일
+ -->
+<configuration>
+   <!-- 마이바티스 설정파일 안에서 사용할 리소스파일을 등록한다. -->
+   <properties resource="mapper/mybatis.properties"></properties>
+   <!-- 
+      [아이바티스]mapperfile에서 type alias -> [마이바티스]설정파일로 위치가 변경됨
+    -->
+   <typeAliases>
+      <!-- <typeAlias alias="adminDTO" type="com.planit.backend.service.AdminDTO"/> -->
+      <typeAlias alias="cola_MemberDTO" type="com.seed.seedprac.service.Cola_MemberDTO"/>
+     </typeAliases>
+   
+
+   <!-- mapper file location -->
+   <mappers>
+ 
+     <!--  <mapper resource="mybatis/Notice.xml" /> -->
+     <mapper resource="mapper/Cola_Member.xml"/>
+   </mappers>
+   
+</configuration>

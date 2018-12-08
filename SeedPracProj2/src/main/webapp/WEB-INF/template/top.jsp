@@ -42,7 +42,7 @@
 						<!-- 게시판3 -->
 							<li><a href="#">게시판3</a></li>
 						<!-- 게시판4 -->
-							<li><a href="#">게시판4</a></li>
+							<li><a href="<c:url value='/seed/prac/sexyBoard'/>">섹시보드</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->

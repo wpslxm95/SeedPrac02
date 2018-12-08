@@ -21,6 +21,11 @@ public class MainController {
 		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
 		return "boards/testAjax.tiles";
 	}
+	@RequestMapping("/seed/prac/sexyBoard")
+	public String sexyBoard() {
+		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp
+		return "boards/sexyBoard.tiles";
+	}
 	@RequestMapping("/seed/prac/result")
 	public String result() {
 		///SeedPracProj/src/main/webapp/WEB-INF/views/boards/board1.jsp

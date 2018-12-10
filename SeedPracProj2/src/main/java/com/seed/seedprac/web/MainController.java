@@ -42,14 +42,14 @@ public class MainController {
 		System.out.println(map.get("pwd"));
 		
 		
-		
+		session.setAttribute("test", "이건 테스트 입니다");
 		
 		boolean isMember=service.isColaMember(map);
 		System.out.println("회원이:"+isMember);
 		if(isMember) {
 			session.setAttribute("id", map.get("id"));
 			System.out.println(session.getAttribute("id"));
-			return "home.tiles";
+			return "redirect:/";
 		}
 		else {
 			model.addAttribute("isNotMember", "아이디와 비밀번호가 일치하지 않습니다");

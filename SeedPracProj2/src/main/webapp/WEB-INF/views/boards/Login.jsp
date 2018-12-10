@@ -32,7 +32,7 @@
 			      <input type="password" class="form-control" name="pwd"id="pwd" placeholder="Password">
 			    </div>
 			  </div>
-			  <div class="form-group">
+			  <div class="form-group">d
 			    <div class="col-sm-offset-2 col-sm-10">
 			      <div class="checkbox">
 			        
